@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1a1a;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #f39c12;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 80px;
+    margin-left: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+h1 {
+    color: #f39c12;
+}
+.game-image {
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    margin-top: 20px;
+}
+.mod-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.mod {
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 5px 5px 10px black;
+}
+.mod img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.verified {
+    font-size: 20px;
+    color: #2ecc71;
+    font-weight: bold;
+}
+.btn-home {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn-home:hover {
+    background: #2980b9;
+}
+footer {
+    margin-top: 30px;
+    background: #f39c12;
+    padding: 15px;
+}
+
+
+.mod2 {
+    color: orange;
+    background-color: orange;
+    border: 20px solid orange;
+    text-decoration: underline;
+    text-shadow: #0099ff; 
+    border-radius:100%
+}
